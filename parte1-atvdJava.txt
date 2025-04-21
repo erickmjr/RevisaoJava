@@ -1,0 +1,16 @@
+Parte 1 -
+a) Qual a principal diferença entre uma classe abstrata e uma interface em Java? 
+R - Uma classe abstrata pode conter tanto métodos abstratos quanto métodos com implementação, ao contrário da interface, em que todos os seus métodos devem ser abstratos.
+
+b) Explique com suas palavras o que é polimorfismo. Dê um exemplo.
+R - Polimorfismo é um conceito de OO, que refere-se à diferentes implementações de um mesmo método em classes distintas que herdam de uma classe pai. 
+Para exemplificar, considere a existência de uma classe abstrata denomidada Animal e duas classes que herdam de Animal, denominadas Cachorro e Gato. A classe Animal possui o método abstrato emitirSom(), que será implementado de uma forma específica para cada classe que herda Animal, no caso de Gato o método teria a saída 'miau' e em Cachorro teria 'Au au', representando duas implementações diferentes para o mesmo método.
+
+c) O que é encapsulamento e por que ele é importante? 
+R- Encapsulamento é um conceito de OO que é aplicado quando se tem atributos e/ou métodos de uma classe que não devem ser acessados diretamente por outras classes ou pelo usuário, recebendo o modificador private, juntamente aos getters e setters para modificações dos atributos. Esse conceito é importante na programação, pois garante maior segurança e escalabilidade nas aplicações.
+
+d) Quando e por que usar tratamento de exceções em Java?
+O tratamento de exceções em Java deve ser utilizado quando há um trecho de código que possa apresentar erros (exceções) diretamente ao usuário, essa prática é utilizada para garantir maior usabilidade e responsividade na aplicação, evitando que quem esteja utilizando-a se depare com erros inesperados.
+
+e) Quais palavras-chave são usadas para tratamento de exceções? 
+As palavras-chave utilizadas no tratamento de exceções são try, catch e finally.
